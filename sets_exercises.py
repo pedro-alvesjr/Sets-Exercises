@@ -7,3 +7,8 @@ def find_pairs(arr1, arr2, target):
             pairs.append((complement, num))
     return pairs
 
+
+def remove_duplicates(my_list):
+    my_set = set(my_list)
+    new_list = list(my_set)
+    return new_list
